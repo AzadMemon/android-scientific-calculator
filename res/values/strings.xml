@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sci Calc</string>
+    <string name="buttonClear">CE</string>
+    <string name="buttonE">e</string>
+    <string name="buttonDR">Deg</string>
+    <string name="buttonExponent">y^x</string>
+    <string name="buttonSquareRoot">Sqrt</string>
+    <string name="buttonSquared">x^2</string>
+    <string name="buttonPI">PI</string>
+    <string name="buttonTanInverse">Tan-1</string>
+    <string name="buttonCosInverse">Cos-1</string>
+    <string name="buttonSinInverse">Sin-1</string>
+    <string name="buttonTan">Tan</string>
+    <string name="buttonCos">Cos</string>
+    <string name="buttonSin">Sin</string>
+    <string name="buttonLn">Ln</string>
+    <string name="buttonLog">Log</string>
+    <string name="buttonFactorial">n!</string>
+    <string name="buttonLogInverse">10^x</string>
+    <string name="buttonLnInverse">e^x</string>
+    <string name="buttonInverse">1/x</string>
+    <string name="buttonNegative">(-)</string>
+    <string name="buttonDecimal">.</string>
+    <string name="button0">0</string>
+    <string name="buttonEqual">=</string>
+    <string name="button3">3</string>
+    <string name="button2">2</string>
+    <string name="button1">1</string>
+    <string name="buttonAdd">+</string>
+    <string name="button6">6</string>
+    <string name="button5">5</string>
+    <string name="button4">4</string>
+    <string name="buttonSubtract">-</string>
+    <string name="button9">9</string>
+    <string name="button8">8</string>
+    <string name="button7">7</string>
+    <string name="buttonDivide">/</string>
+    <string name="buttonBracketClose">)</string>
+    <string name="buttonBracketOpen">(</string>
+    <string name="buttonMultiply">x</string>
+    <string name="buttonAnswer">ANS</string>
+    <string name="buttonDelete">DEL</string>
+</resources>

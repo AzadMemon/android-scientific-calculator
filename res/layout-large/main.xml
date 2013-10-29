@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="36.0sp" android:textColor="#ffffffff" android:gravity="right|center" android:id="@id/edit_Text" android:background="#00000000" android:paddingLeft="10.0dip" android:paddingTop="0.0dip" android:paddingRight="10.0dip" android:paddingBottom="0.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="" android:cursorVisible="false" android:lines="1" android:scrollHorizontally="true" android:layout_weight="0.15" android:inputType="numberDecimal" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="0.85"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="32.0sp" android:id="@id/buttonClear" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonClear" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/buttonBracketOpen" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonBracketOpen" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/button7" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/button7" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/button4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/button4" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/button1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/button1" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/button0" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/button0" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="32.0sp" android:id="@id/buttonDelete" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonDelete" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/buttonBracketClose" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonBracketClose" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/button8" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/button8" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/button5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/button5" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/button2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/button2" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/buttonDecimal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonDecimal" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="32.0sp" android:id="@id/buttonAnswer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonAnswer" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/buttonExponent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonExponent" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/button9" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/button9" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/button6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/button6" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/button3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/button3" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/buttonNegative" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonNegative" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="32.0sp" android:id="@id/buttonDivide" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonDivide" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/buttonMultiply" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonMultiply" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/buttonSubtract" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonSubtract" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/buttonAdd" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonAdd" android:layout_weight="1.0" />
+            <Button android:textSize="32.0sp" android:id="@id/buttonEqual" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/buttonEqual" android:layout_weight="2.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
